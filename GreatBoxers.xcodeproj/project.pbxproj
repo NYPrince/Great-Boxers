@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EC35E661982794500FA1504 /* Boxers.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = C7A5C23919815196006FF125 /* Boxers.sqlite */; };
+		C76240A9197F0F2D00E09FB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76240A8197F0F2D00E09FB5 /* Foundation.framework */; };
+		C76240AB197F0F2D00E09FB5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76240AA197F0F2D00E09FB5 /* CoreGraphics.framework */; };
+		C76240AD197F0F2D00E09FB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76240AC197F0F2D00E09FB5 /* UIKit.framework */; };
+		C76240B3197F0F2D00E09FB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C76240B1197F0F2D00E09FB5 /* InfoPlist.strings */; };
+		C76240B5197F0F2D00E09FB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C76240B4197F0F2D00E09FB5 /* main.m */; };
+		C76240B9197F0F2D00E09FB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C76240B8197F0F2D00E09FB5 /* AppDelegate.m */; };
+		C76240BC197F0F2D00E09FB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76240BA197F0F2D00E09FB5 /* Main.storyboard */; };
+		C76240C1197F0F2D00E09FB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C76240C0197F0F2D00E09FB5 /* Images.xcassets */; };
+		C76240C8197F0F2D00E09FB5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76240C7197F0F2D00E09FB5 /* XCTest.framework */; };
+		C76240C9197F0F2D00E09FB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76240A8197F0F2D00E09FB5 /* Foundation.framework */; };
+		C76240CA197F0F2D00E09FB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76240AC197F0F2D00E09FB5 /* UIKit.framework */; };
+		C76240D2197F0F2D00E09FB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C76240D0197F0F2D00E09FB5 /* InfoPlist.strings */; };
+		C76240D4197F0F2D00E09FB5 /* GreatBoxersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C76240D3197F0F2D00E09FB5 /* GreatBoxersTests.m */; };
+		C76240DF197F101100E09FB5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C76240DE197F101100E09FB5 /* MainViewController.m */; };
+		C76240E2197F126600E09FB5 /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C76240E1197F126600E09FB5 /* ParentViewController.m */; };
+		C76240E5197F12B600E09FB5 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C76240E4197F12B600E09FB5 /* ChildViewController.m */; };
+		C76240E8197F141400E09FB5 /* DataInitializer.m in Sources */ = {isa = PBXBuildFile; fileRef = C76240E7197F141400E09FB5 /* DataInitializer.m */; };
+		C76240EA197F146200E09FB5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76240E9197F146200E09FB5 /* SystemConfiguration.framework */; };
+		C76240EC197F146E00E09FB5 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C76240EB197F146E00E09FB5 /* libsqlite3.0.dylib */; };
+		C76240EF197F151D00E09FB5 /* Boxer.m in Sources */ = {isa = PBXBuildFile; fileRef = C76240EE197F151D00E09FB5 /* Boxer.m */; };
+		C76240F3197F158500E09FB5 /* WeightDivision.m in Sources */ = {isa = PBXBuildFile; fileRef = C76240F2197F158500E09FB5 /* WeightDivision.m */; };
+		C76240F6197F15EB00E09FB5 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C76240F5197F15EB00E09FB5 /* Reachability.m */; };
+		C7624129197F72C600E09FB5 /* Aaron_Pryor200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C76240FA197F72C600E09FB5 /* Aaron_Pryor200.jpg */; };
+		C762412A197F72C600E09FB5 /* Alexis_Arguello200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C76240FB197F72C600E09FB5 /* Alexis_Arguello200.jpg */; };
+		C762412B197F72C600E09FB5 /* Archie_Moore200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C76240FC197F72C600E09FB5 /* Archie_Moore200.jpg */; };
+		C762412C197F72C600E09FB5 /* Azumah_Nelson200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C76240FD197F72C600E09FB5 /* Azumah_Nelson200.jpg */; };
+		C762412D197F72C600E09FB5 /* Bernard_Hopkins200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C76240FE197F72C600E09FB5 /* Bernard_Hopkins200.jpg */; };
+		C762412E197F72C600E09FB5 /* David_Haye200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C76240FF197F72C600E09FB5 /* David_Haye200.jpg */; };
+		C762412F197F72C600E09FB5 /* Emile_Griffith200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624100197F72C600E09FB5 /* Emile_Griffith200.jpg */; };
+		C7624130197F72C600E09FB5 /* Erik_Morales200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624101197F72C600E09FB5 /* Erik_Morales200.jpg */; };
+		C7624131197F72C600E09FB5 /* Evander_Holifield200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624102197F72C600E09FB5 /* Evander_Holifield200.jpg */; };
+		C7624132197F72C600E09FB5 /* Ezzard_Charles200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624103197F72C600E09FB5 /* Ezzard_Charles200.jpg */; };
+		C7624133197F72C600E09FB5 /* Floyd_Mayweather200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624104197F72C600E09FB5 /* Floyd_Mayweather200.jpg */; };
+		C7624134197F72C600E09FB5 /* Floyd_Patterson200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624105197F72C600E09FB5 /* Floyd_Patterson200.jpg */; };
+		C7624135197F72C600E09FB5 /* George_Forman200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624106197F72C600E09FB5 /* George_Forman200.jpg */; };
+		C7624136197F72C600E09FB5 /* Henry_Armstrong200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624107197F72C600E09FB5 /* Henry_Armstrong200.jpg */; };
+		C7624137197F72C600E09FB5 /* Jack_Dempsey200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624108197F72C600E09FB5 /* Jack_Dempsey200.jpg */; };
+		C7624138197F72C600E09FB5 /* Jack_Johnson200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624109197F72C600E09FB5 /* Jack_Johnson200.jpg */; };
+		C7624139197F72C600E09FB5 /* Jake_LaMotta200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C762410A197F72C600E09FB5 /* Jake_LaMotta200.jpg */; };
+		C762413A197F72C600E09FB5 /* Joe_Calazghe200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C762410B197F72C600E09FB5 /* Joe_Calazghe200.jpg */; };
+		C762413B197F72C600E09FB5 /* Joe_Frazier200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C762410C197F72C600E09FB5 /* Joe_Frazier200.jpg */; };
+		C762413C197F72C600E09FB5 /* Joe_Gans200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C762410D197F72C600E09FB5 /* Joe_Gans200.jpg */; };
+		C762413D197F72C600E09FB5 /* Joe_Louis200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C762410E197F72C600E09FB5 /* Joe_Louis200.jpg */; };
+		C762413E197F72C600E09FB5 /* Juan_Marquez200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C762410F197F72C600E09FB5 /* Juan_Marquez200.jpg */; };
+		C762413F197F72C600E09FB5 /* Julio_Cesar-Chavez200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624110197F72C600E09FB5 /* Julio_Cesar-Chavez200.jpg */; };
+		C7624140197F72C600E09FB5 /* Larry_Holmes200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624111197F72C600E09FB5 /* Larry_Holmes200.jpg */; };
+		C7624141197F72C600E09FB5 /* Lenox_Lewis200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624112197F72C600E09FB5 /* Lenox_Lewis200.jpg */; };
+		C7624142197F72C600E09FB5 /* Manny_Pacquiao.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624113197F72C600E09FB5 /* Manny_Pacquiao.jpg */; };
+		C7624143197F72C600E09FB5 /* Marco_Antonio_Barrera200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624114197F72C600E09FB5 /* Marco_Antonio_Barrera200.jpg */; };
+		C7624144197F72C600E09FB5 /* Marvin_Hagler200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624115197F72C600E09FB5 /* Marvin_Hagler200.jpg */; };
+		C7624145197F72C600E09FB5 /* Meldrick_Taylor200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624116197F72C600E09FB5 /* Meldrick_Taylor200.jpg */; };
+		C7624146197F72C600E09FB5 /* Mike_Tyson200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624117197F72C600E09FB5 /* Mike_Tyson200.jpg */; };
+		C7624147197F72C600E09FB5 /* Muhammad_Ali200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624118197F72C600E09FB5 /* Muhammad_Ali200.jpg */; };
+		C7624148197F72C600E09FB5 /* Oscar_Dela_Hoya200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624119197F72C600E09FB5 /* Oscar_Dela_Hoya200.jpg */; };
+		C7624149197F72C600E09FB5 /* Pernell_Whitaker200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C762411A197F72C600E09FB5 /* Pernell_Whitaker200.jpg */; };
+		C762414A197F72C600E09FB5 /* Roberto_Duran200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C762411B197F72C600E09FB5 /* Roberto_Duran200.jpg */; };
+		C762414B197F72C600E09FB5 /* Rocky_Marciano200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C762411C197F72C600E09FB5 /* Rocky_Marciano200.jpg */; };
+		C762414C197F72C600E09FB5 /* Roy_Jones_Jr200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C762411D197F72C600E09FB5 /* Roy_Jones_Jr200.jpg */; };
+		C762414D197F72C600E09FB5 /* Salvadore_Sanchez200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C762411E197F72C600E09FB5 /* Salvadore_Sanchez200.jpg */; };
+		C762414E197F72C600E09FB5 /* Shane_Mosely.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C762411F197F72C600E09FB5 /* Shane_Mosely.jpg */; };
+		C762414F197F72C600E09FB5 /* Sonny_Liston200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624120197F72C600E09FB5 /* Sonny_Liston200.jpg */; };
+		C7624150197F72C600E09FB5 /* Sugar_Ray_Leonard200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624121197F72C600E09FB5 /* Sugar_Ray_Leonard200.jpg */; };
+		C7624151197F72C600E09FB5 /* Sugar_Ray_Robinson200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624122197F72C600E09FB5 /* Sugar_Ray_Robinson200.jpg */; };
+		C7624152197F72C600E09FB5 /* Tommy_Hearns200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624123197F72C600E09FB5 /* Tommy_Hearns200.jpg */; };
+		C7624153197F72C600E09FB5 /* Vitali_Klitscko200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624124197F72C600E09FB5 /* Vitali_Klitscko200.jpg */; };
+		C7624154197F72C600E09FB5 /* Wilfredo_Benitez200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624125197F72C600E09FB5 /* Wilfredo_Benitez200.jpg */; };
+		C7624155197F72C600E09FB5 /* Wilfredo_Gomez200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624126197F72C600E09FB5 /* Wilfredo_Gomez200.jpg */; };
+		C7624156197F72C600E09FB5 /* Willie_Pep200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624127197F72C600E09FB5 /* Willie_Pep200.jpg */; };
+		C7624157197F72C600E09FB5 /* Wladimir_Klitschko200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7624128197F72C600E09FB5 /* Wladimir_Klitschko200.jpg */; };
+		C7624159197F755100E09FB5 /* robinson-gavilanSplashPage.png in Resources */ = {isa = PBXBuildFile; fileRef = C7624158197F755100E09FB5 /* robinson-gavilanSplashPage.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C76240CB197F0F2D00E09FB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C762409D197F0F2D00E09FB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C76240A4197F0F2D00E09FB5;
+			remoteInfo = GreatBoxers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C76240A5197F0F2D00E09FB5 /* GreatBoxers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreatBoxers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76240A8197F0F2D00E09FB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C76240AA197F0F2D00E09FB5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C76240AC197F0F2D00E09FB5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C76240B0197F0F2D00E09FB5 /* GreatBoxers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GreatBoxers-Info.plist"; sourceTree = "<group>"; };
+		C76240B2197F0F2D00E09FB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C76240B4197F0F2D00E09FB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C76240B6197F0F2D00E09FB5 /* GreatBoxers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GreatBoxers-Prefix.pch"; sourceTree = "<group>"; };
+		C76240B7197F0F2D00E09FB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C76240B8197F0F2D00E09FB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C76240BB197F0F2D00E09FB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C76240C0197F0F2D00E09FB5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C76240C6197F0F2D00E09FB5 /* GreatBoxersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreatBoxersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76240C7197F0F2D00E09FB5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C76240CF197F0F2D00E09FB5 /* GreatBoxersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GreatBoxersTests-Info.plist"; sourceTree = "<group>"; };
+		C76240D1197F0F2D00E09FB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C76240D3197F0F2D00E09FB5 /* GreatBoxersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreatBoxersTests.m; sourceTree = "<group>"; };
+		C76240DD197F101100E09FB5 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		C76240DE197F101100E09FB5 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		C76240E0197F126600E09FB5 /* ParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentViewController.h; sourceTree = "<group>"; };
+		C76240E1197F126600E09FB5 /* ParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentViewController.m; sourceTree = "<group>"; };
+		C76240E3197F12B600E09FB5 /* ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
+		C76240E4197F12B600E09FB5 /* ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
+		C76240E6197F141400E09FB5 /* DataInitializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataInitializer.h; sourceTree = "<group>"; };
+		C76240E7197F141400E09FB5 /* DataInitializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataInitializer.m; sourceTree = "<group>"; };
+		C76240E9197F146200E09FB5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C76240EB197F146E00E09FB5 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		C76240ED197F151D00E09FB5 /* Boxer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boxer.h; sourceTree = "<group>"; };
+		C76240EE197F151D00E09FB5 /* Boxer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boxer.m; sourceTree = "<group>"; };
+		C76240F1197F158500E09FB5 /* WeightDivision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightDivision.h; sourceTree = "<group>"; };
+		C76240F2197F158500E09FB5 /* WeightDivision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightDivision.m; sourceTree = "<group>"; };
+		C76240F4197F15EB00E09FB5 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		C76240F5197F15EB00E09FB5 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		C76240FA197F72C600E09FB5 /* Aaron_Pryor200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aaron_Pryor200.jpg; sourceTree = "<group>"; };
+		C76240FB197F72C600E09FB5 /* Alexis_Arguello200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Alexis_Arguello200.jpg; sourceTree = "<group>"; };
+		C76240FC197F72C600E09FB5 /* Archie_Moore200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Archie_Moore200.jpg; sourceTree = "<group>"; };
+		C76240FD197F72C600E09FB5 /* Azumah_Nelson200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Azumah_Nelson200.jpg; sourceTree = "<group>"; };
+		C76240FE197F72C600E09FB5 /* Bernard_Hopkins200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bernard_Hopkins200.jpg; sourceTree = "<group>"; };
+		C76240FF197F72C600E09FB5 /* David_Haye200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = David_Haye200.jpg; sourceTree = "<group>"; };
+		C7624100197F72C600E09FB5 /* Emile_Griffith200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Emile_Griffith200.jpg; sourceTree = "<group>"; };
+		C7624101197F72C600E09FB5 /* Erik_Morales200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Erik_Morales200.jpg; sourceTree = "<group>"; };
+		C7624102197F72C600E09FB5 /* Evander_Holifield200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Evander_Holifield200.jpg; sourceTree = "<group>"; };
+		C7624103197F72C600E09FB5 /* Ezzard_Charles200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ezzard_Charles200.jpg; sourceTree = "<group>"; };
+		C7624104197F72C600E09FB5 /* Floyd_Mayweather200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Floyd_Mayweather200.jpg; sourceTree = "<group>"; };
+		C7624105197F72C600E09FB5 /* Floyd_Patterson200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Floyd_Patterson200.jpg; sourceTree = "<group>"; };
+		C7624106197F72C600E09FB5 /* George_Forman200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = George_Forman200.jpg; sourceTree = "<group>"; };
+		C7624107197F72C600E09FB5 /* Henry_Armstrong200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Henry_Armstrong200.jpg; sourceTree = "<group>"; };
+		C7624108197F72C600E09FB5 /* Jack_Dempsey200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jack_Dempsey200.jpg; sourceTree = "<group>"; };
+		C7624109197F72C600E09FB5 /* Jack_Johnson200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jack_Johnson200.jpg; sourceTree = "<group>"; };
+		C762410A197F72C600E09FB5 /* Jake_LaMotta200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jake_LaMotta200.jpg; sourceTree = "<group>"; };
+		C762410B197F72C600E09FB5 /* Joe_Calazghe200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Joe_Calazghe200.jpg; sourceTree = "<group>"; };
+		C762410C197F72C600E09FB5 /* Joe_Frazier200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Joe_Frazier200.jpg; sourceTree = "<group>"; };
+		C762410D197F72C600E09FB5 /* Joe_Gans200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Joe_Gans200.jpg; sourceTree = "<group>"; };
+		C762410E197F72C600E09FB5 /* Joe_Louis200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Joe_Louis200.jpg; sourceTree = "<group>"; };
+		C762410F197F72C600E09FB5 /* Juan_Marquez200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Juan_Marquez200.jpg; sourceTree = "<group>"; };
+		C7624110197F72C600E09FB5 /* Julio_Cesar-Chavez200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Julio_Cesar-Chavez200.jpg"; sourceTree = "<group>"; };
+		C7624111197F72C600E09FB5 /* Larry_Holmes200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Larry_Holmes200.jpg; sourceTree = "<group>"; };
+		C7624112197F72C600E09FB5 /* Lenox_Lewis200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lenox_Lewis200.jpg; sourceTree = "<group>"; };
+		C7624113197F72C600E09FB5 /* Manny_Pacquiao.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Manny_Pacquiao.jpg; sourceTree = "<group>"; };
+		C7624114197F72C600E09FB5 /* Marco_Antonio_Barrera200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Marco_Antonio_Barrera200.jpg; sourceTree = "<group>"; };
+		C7624115197F72C600E09FB5 /* Marvin_Hagler200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Marvin_Hagler200.jpg; sourceTree = "<group>"; };
+		C7624116197F72C600E09FB5 /* Meldrick_Taylor200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Meldrick_Taylor200.jpg; sourceTree = "<group>"; };
+		C7624117197F72C600E09FB5 /* Mike_Tyson200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mike_Tyson200.jpg; sourceTree = "<group>"; };
+		C7624118197F72C600E09FB5 /* Muhammad_Ali200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Muhammad_Ali200.jpg; sourceTree = "<group>"; };
+		C7624119197F72C600E09FB5 /* Oscar_Dela_Hoya200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Oscar_Dela_Hoya200.jpg; sourceTree = "<group>"; };
+		C762411A197F72C600E09FB5 /* Pernell_Whitaker200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pernell_Whitaker200.jpg; sourceTree = "<group>"; };
+		C762411B197F72C600E09FB5 /* Roberto_Duran200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Roberto_Duran200.jpg; sourceTree = "<group>"; };
+		C762411C197F72C600E09FB5 /* Rocky_Marciano200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rocky_Marciano200.jpg; sourceTree = "<group>"; };
+		C762411D197F72C600E09FB5 /* Roy_Jones_Jr200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Roy_Jones_Jr200.jpg; sourceTree = "<group>"; };
+		C762411E197F72C600E09FB5 /* Salvadore_Sanchez200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Salvadore_Sanchez200.jpg; sourceTree = "<group>"; };
+		C762411F197F72C600E09FB5 /* Shane_Mosely.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Shane_Mosely.jpg; sourceTree = "<group>"; };
+		C7624120197F72C600E09FB5 /* Sonny_Liston200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sonny_Liston200.jpg; sourceTree = "<group>"; };
+		C7624121197F72C600E09FB5 /* Sugar_Ray_Leonard200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sugar_Ray_Leonard200.jpg; sourceTree = "<group>"; };
+		C7624122197F72C600E09FB5 /* Sugar_Ray_Robinson200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sugar_Ray_Robinson200.jpg; sourceTree = "<group>"; };
+		C7624123197F72C600E09FB5 /* Tommy_Hearns200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tommy_Hearns200.jpg; sourceTree = "<group>"; };
+		C7624124197F72C600E09FB5 /* Vitali_Klitscko200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Vitali_Klitscko200.jpg; sourceTree = "<group>"; };
+		C7624125197F72C600E09FB5 /* Wilfredo_Benitez200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wilfredo_Benitez200.jpg; sourceTree = "<group>"; };
+		C7624126197F72C600E09FB5 /* Wilfredo_Gomez200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wilfredo_Gomez200.jpg; sourceTree = "<group>"; };
+		C7624127197F72C600E09FB5 /* Willie_Pep200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Willie_Pep200.jpg; sourceTree = "<group>"; };
+		C7624128197F72C600E09FB5 /* Wladimir_Klitschko200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wladimir_Klitschko200.jpg; sourceTree = "<group>"; };
+		C7624158197F755100E09FB5 /* robinson-gavilanSplashPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "robinson-gavilanSplashPage.png"; sourceTree = "<group>"; };
+		C7A5C23919815196006FF125 /* Boxers.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Boxers.sqlite; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C76240A2197F0F2D00E09FB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76240EC197F146E00E09FB5 /* libsqlite3.0.dylib in Frameworks */,
+				C76240EA197F146200E09FB5 /* SystemConfiguration.framework in Frameworks */,
+				C76240AB197F0F2D00E09FB5 /* CoreGraphics.framework in Frameworks */,
+				C76240AD197F0F2D00E09FB5 /* UIKit.framework in Frameworks */,
+				C76240A9197F0F2D00E09FB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76240C3197F0F2D00E09FB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76240C8197F0F2D00E09FB5 /* XCTest.framework in Frameworks */,
+				C76240CA197F0F2D00E09FB5 /* UIKit.framework in Frameworks */,
+				C76240C9197F0F2D00E09FB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C762409C197F0F2D00E09FB5 = {
+			isa = PBXGroup;
+			children = (
+				C7A5C23919815196006FF125 /* Boxers.sqlite */,
+				C76240AE197F0F2D00E09FB5 /* GreatBoxers */,
+				C76240CD197F0F2D00E09FB5 /* GreatBoxersTests */,
+				C76240A7197F0F2D00E09FB5 /* Frameworks */,
+				C76240A6197F0F2D00E09FB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C76240A6197F0F2D00E09FB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C76240A5197F0F2D00E09FB5 /* GreatBoxers.app */,
+				C76240C6197F0F2D00E09FB5 /* GreatBoxersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C76240A7197F0F2D00E09FB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C76240EB197F146E00E09FB5 /* libsqlite3.0.dylib */,
+				C76240E9197F146200E09FB5 /* SystemConfiguration.framework */,
+				C76240A8197F0F2D00E09FB5 /* Foundation.framework */,
+				C76240AA197F0F2D00E09FB5 /* CoreGraphics.framework */,
+				C76240AC197F0F2D00E09FB5 /* UIKit.framework */,
+				C76240C7197F0F2D00E09FB5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C76240AE197F0F2D00E09FB5 /* GreatBoxers */ = {
+			isa = PBXGroup;
+			children = (
+				C76240F7197F160200E09FB5 /* images */,
+				C76240F0197F152C00E09FB5 /* class */,
+				C76240BA197F0F2D00E09FB5 /* Main.storyboard */,
+				C76240E6197F141400E09FB5 /* DataInitializer.h */,
+				C76240E7197F141400E09FB5 /* DataInitializer.m */,
+				C76240DD197F101100E09FB5 /* MainViewController.h */,
+				C76240DE197F101100E09FB5 /* MainViewController.m */,
+				C76240E0197F126600E09FB5 /* ParentViewController.h */,
+				C76240E1197F126600E09FB5 /* ParentViewController.m */,
+				C76240E3197F12B600E09FB5 /* ChildViewController.h */,
+				C76240E4197F12B600E09FB5 /* ChildViewController.m */,
+				C76240F4197F15EB00E09FB5 /* Reachability.h */,
+				C76240F5197F15EB00E09FB5 /* Reachability.m */,
+				C76240C0197F0F2D00E09FB5 /* Images.xcassets */,
+				C7624158197F755100E09FB5 /* robinson-gavilanSplashPage.png */,
+				C76240AF197F0F2D00E09FB5 /* Supporting Files */,
+			);
+			path = GreatBoxers;
+			sourceTree = "<group>";
+		};
+		C76240AF197F0F2D00E09FB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C76240B7197F0F2D00E09FB5 /* AppDelegate.h */,
+				C76240B8197F0F2D00E09FB5 /* AppDelegate.m */,
+				C76240B0197F0F2D00E09FB5 /* GreatBoxers-Info.plist */,
+				C76240B1197F0F2D00E09FB5 /* InfoPlist.strings */,
+				C76240B4197F0F2D00E09FB5 /* main.m */,
+				C76240B6197F0F2D00E09FB5 /* GreatBoxers-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C76240CD197F0F2D00E09FB5 /* GreatBoxersTests */ = {
+			isa = PBXGroup;
+			children = (
+				C76240D3197F0F2D00E09FB5 /* GreatBoxersTests.m */,
+				C76240CE197F0F2D00E09FB5 /* Supporting Files */,
+			);
+			path = GreatBoxersTests;
+			sourceTree = "<group>";
+		};
+		C76240CE197F0F2D00E09FB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C76240CF197F0F2D00E09FB5 /* GreatBoxersTests-Info.plist */,
+				C76240D0197F0F2D00E09FB5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C76240F0197F152C00E09FB5 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				C76240ED197F151D00E09FB5 /* Boxer.h */,
+				C76240EE197F151D00E09FB5 /* Boxer.m */,
+				C76240F1197F158500E09FB5 /* WeightDivision.h */,
+				C76240F2197F158500E09FB5 /* WeightDivision.m */,
+			);
+			name = class;
+			sourceTree = "<group>";
+		};
+		C76240F7197F160200E09FB5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C76240FA197F72C600E09FB5 /* Aaron_Pryor200.jpg */,
+				C76240FB197F72C600E09FB5 /* Alexis_Arguello200.jpg */,
+				C76240FC197F72C600E09FB5 /* Archie_Moore200.jpg */,
+				C76240FD197F72C600E09FB5 /* Azumah_Nelson200.jpg */,
+				C76240FE197F72C600E09FB5 /* Bernard_Hopkins200.jpg */,
+				C76240FF197F72C600E09FB5 /* David_Haye200.jpg */,
+				C7624100197F72C600E09FB5 /* Emile_Griffith200.jpg */,
+				C7624101197F72C600E09FB5 /* Erik_Morales200.jpg */,
+				C7624102197F72C600E09FB5 /* Evander_Holifield200.jpg */,
+				C7624103197F72C600E09FB5 /* Ezzard_Charles200.jpg */,
+				C7624104197F72C600E09FB5 /* Floyd_Mayweather200.jpg */,
+				C7624105197F72C600E09FB5 /* Floyd_Patterson200.jpg */,
+				C7624106197F72C600E09FB5 /* George_Forman200.jpg */,
+				C7624107197F72C600E09FB5 /* Henry_Armstrong200.jpg */,
+				C7624108197F72C600E09FB5 /* Jack_Dempsey200.jpg */,
+				C7624109197F72C600E09FB5 /* Jack_Johnson200.jpg */,
+				C762410A197F72C600E09FB5 /* Jake_LaMotta200.jpg */,
+				C762410B197F72C600E09FB5 /* Joe_Calazghe200.jpg */,
+				C762410C197F72C600E09FB5 /* Joe_Frazier200.jpg */,
+				C762410D197F72C600E09FB5 /* Joe_Gans200.jpg */,
+				C762410E197F72C600E09FB5 /* Joe_Louis200.jpg */,
+				C762410F197F72C600E09FB5 /* Juan_Marquez200.jpg */,
+				C7624110197F72C600E09FB5 /* Julio_Cesar-Chavez200.jpg */,
+				C7624111197F72C600E09FB5 /* Larry_Holmes200.jpg */,
+				C7624112197F72C600E09FB5 /* Lenox_Lewis200.jpg */,
+				C7624113197F72C600E09FB5 /* Manny_Pacquiao.jpg */,
+				C7624114197F72C600E09FB5 /* Marco_Antonio_Barrera200.jpg */,
+				C7624115197F72C600E09FB5 /* Marvin_Hagler200.jpg */,
+				C7624116197F72C600E09FB5 /* Meldrick_Taylor200.jpg */,
+				C7624117197F72C600E09FB5 /* Mike_Tyson200.jpg */,
+				C7624118197F72C600E09FB5 /* Muhammad_Ali200.jpg */,
+				C7624119197F72C600E09FB5 /* Oscar_Dela_Hoya200.jpg */,
+				C762411A197F72C600E09FB5 /* Pernell_Whitaker200.jpg */,
+				C762411B197F72C600E09FB5 /* Roberto_Duran200.jpg */,
+				C762411C197F72C600E09FB5 /* Rocky_Marciano200.jpg */,
+				C762411D197F72C600E09FB5 /* Roy_Jones_Jr200.jpg */,
+				C762411E197F72C600E09FB5 /* Salvadore_Sanchez200.jpg */,
+				C762411F197F72C600E09FB5 /* Shane_Mosely.jpg */,
+				C7624120197F72C600E09FB5 /* Sonny_Liston200.jpg */,
+				C7624121197F72C600E09FB5 /* Sugar_Ray_Leonard200.jpg */,
+				C7624122197F72C600E09FB5 /* Sugar_Ray_Robinson200.jpg */,
+				C7624123197F72C600E09FB5 /* Tommy_Hearns200.jpg */,
+				C7624124197F72C600E09FB5 /* Vitali_Klitscko200.jpg */,
+				C7624125197F72C600E09FB5 /* Wilfredo_Benitez200.jpg */,
+				C7624126197F72C600E09FB5 /* Wilfredo_Gomez200.jpg */,
+				C7624127197F72C600E09FB5 /* Willie_Pep200.jpg */,
+				C7624128197F72C600E09FB5 /* Wladimir_Klitschko200.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C76240A4197F0F2D00E09FB5 /* GreatBoxers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C76240D7197F0F2D00E09FB5 /* Build configuration list for PBXNativeTarget "GreatBoxers" */;
+			buildPhases = (
+				C76240A1197F0F2D00E09FB5 /* Sources */,
+				C76240A2197F0F2D00E09FB5 /* Frameworks */,
+				C76240A3197F0F2D00E09FB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreatBoxers;
+			productName = GreatBoxers;
+			productReference = C76240A5197F0F2D00E09FB5 /* GreatBoxers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C76240C5197F0F2D00E09FB5 /* GreatBoxersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C76240DA197F0F2D00E09FB5 /* Build configuration list for PBXNativeTarget "GreatBoxersTests" */;
+			buildPhases = (
+				C76240C2197F0F2D00E09FB5 /* Sources */,
+				C76240C3197F0F2D00E09FB5 /* Frameworks */,
+				C76240C4197F0F2D00E09FB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C76240CC197F0F2D00E09FB5 /* PBXTargetDependency */,
+			);
+			name = GreatBoxersTests;
+			productName = GreatBoxersTests;
+			productReference = C76240C6197F0F2D00E09FB5 /* GreatBoxersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C762409D197F0F2D00E09FB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rick Williams";
+				TargetAttributes = {
+					C76240C5197F0F2D00E09FB5 = {
+						TestTargetID = C76240A4197F0F2D00E09FB5;
+					};
+				};
+			};
+			buildConfigurationList = C76240A0197F0F2D00E09FB5 /* Build configuration list for PBXProject "GreatBoxers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C762409C197F0F2D00E09FB5;
+			productRefGroup = C76240A6197F0F2D00E09FB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C76240A4197F0F2D00E09FB5 /* GreatBoxers */,
+				C76240C5197F0F2D00E09FB5 /* GreatBoxersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C76240A3197F0F2D00E09FB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EC35E661982794500FA1504 /* Boxers.sqlite in Resources */,
+				C7624143197F72C600E09FB5 /* Marco_Antonio_Barrera200.jpg in Resources */,
+				C76240C1197F0F2D00E09FB5 /* Images.xcassets in Resources */,
+				C7624136197F72C600E09FB5 /* Henry_Armstrong200.jpg in Resources */,
+				C762414B197F72C600E09FB5 /* Rocky_Marciano200.jpg in Resources */,
+				C7624153197F72C600E09FB5 /* Vitali_Klitscko200.jpg in Resources */,
+				C7624149197F72C600E09FB5 /* Pernell_Whitaker200.jpg in Resources */,
+				C7624147197F72C600E09FB5 /* Muhammad_Ali200.jpg in Resources */,
+				C7624148197F72C600E09FB5 /* Oscar_Dela_Hoya200.jpg in Resources */,
+				C762413B197F72C600E09FB5 /* Joe_Frazier200.jpg in Resources */,
+				C762412C197F72C600E09FB5 /* Azumah_Nelson200.jpg in Resources */,
+				C7624157197F72C600E09FB5 /* Wladimir_Klitschko200.jpg in Resources */,
+				C7624138197F72C600E09FB5 /* Jack_Johnson200.jpg in Resources */,
+				C7624145197F72C600E09FB5 /* Meldrick_Taylor200.jpg in Resources */,
+				C7624129197F72C600E09FB5 /* Aaron_Pryor200.jpg in Resources */,
+				C762414E197F72C600E09FB5 /* Shane_Mosely.jpg in Resources */,
+				C7624137197F72C600E09FB5 /* Jack_Dempsey200.jpg in Resources */,
+				C762413A197F72C600E09FB5 /* Joe_Calazghe200.jpg in Resources */,
+				C762414D197F72C600E09FB5 /* Salvadore_Sanchez200.jpg in Resources */,
+				C762413D197F72C600E09FB5 /* Joe_Louis200.jpg in Resources */,
+				C762414C197F72C600E09FB5 /* Roy_Jones_Jr200.jpg in Resources */,
+				C76240B3197F0F2D00E09FB5 /* InfoPlist.strings in Resources */,
+				C7624154197F72C600E09FB5 /* Wilfredo_Benitez200.jpg in Resources */,
+				C7624159197F755100E09FB5 /* robinson-gavilanSplashPage.png in Resources */,
+				C7624139197F72C600E09FB5 /* Jake_LaMotta200.jpg in Resources */,
+				C7624156197F72C600E09FB5 /* Willie_Pep200.jpg in Resources */,
+				C7624134197F72C600E09FB5 /* Floyd_Patterson200.jpg in Resources */,
+				C762414F197F72C600E09FB5 /* Sonny_Liston200.jpg in Resources */,
+				C7624152197F72C600E09FB5 /* Tommy_Hearns200.jpg in Resources */,
+				C762412E197F72C600E09FB5 /* David_Haye200.jpg in Resources */,
+				C7624151197F72C600E09FB5 /* Sugar_Ray_Robinson200.jpg in Resources */,
+				C7624130197F72C600E09FB5 /* Erik_Morales200.jpg in Resources */,
+				C762412B197F72C600E09FB5 /* Archie_Moore200.jpg in Resources */,
+				C762412A197F72C600E09FB5 /* Alexis_Arguello200.jpg in Resources */,
+				C7624146197F72C600E09FB5 /* Mike_Tyson200.jpg in Resources */,
+				C762414A197F72C600E09FB5 /* Roberto_Duran200.jpg in Resources */,
+				C76240BC197F0F2D00E09FB5 /* Main.storyboard in Resources */,
+				C762413F197F72C600E09FB5 /* Julio_Cesar-Chavez200.jpg in Resources */,
+				C7624144197F72C600E09FB5 /* Marvin_Hagler200.jpg in Resources */,
+				C7624131197F72C600E09FB5 /* Evander_Holifield200.jpg in Resources */,
+				C7624135197F72C600E09FB5 /* George_Forman200.jpg in Resources */,
+				C762412D197F72C600E09FB5 /* Bernard_Hopkins200.jpg in Resources */,
+				C7624133197F72C600E09FB5 /* Floyd_Mayweather200.jpg in Resources */,
+				C762412F197F72C600E09FB5 /* Emile_Griffith200.jpg in Resources */,
+				C762413C197F72C600E09FB5 /* Joe_Gans200.jpg in Resources */,
+				C7624150197F72C600E09FB5 /* Sugar_Ray_Leonard200.jpg in Resources */,
+				C7624141197F72C600E09FB5 /* Lenox_Lewis200.jpg in Resources */,
+				C7624142197F72C600E09FB5 /* Manny_Pacquiao.jpg in Resources */,
+				C7624140197F72C600E09FB5 /* Larry_Holmes200.jpg in Resources */,
+				C7624155197F72C600E09FB5 /* Wilfredo_Gomez200.jpg in Resources */,
+				C762413E197F72C600E09FB5 /* Juan_Marquez200.jpg in Resources */,
+				C7624132197F72C600E09FB5 /* Ezzard_Charles200.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76240C4197F0F2D00E09FB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76240D2197F0F2D00E09FB5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C76240A1197F0F2D00E09FB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76240F3197F158500E09FB5 /* WeightDivision.m in Sources */,
+				C76240E5197F12B600E09FB5 /* ChildViewController.m in Sources */,
+				C76240B9197F0F2D00E09FB5 /* AppDelegate.m in Sources */,
+				C76240EF197F151D00E09FB5 /* Boxer.m in Sources */,
+				C76240E8197F141400E09FB5 /* DataInitializer.m in Sources */,
+				C76240DF197F101100E09FB5 /* MainViewController.m in Sources */,
+				C76240E2197F126600E09FB5 /* ParentViewController.m in Sources */,
+				C76240F6197F15EB00E09FB5 /* Reachability.m in Sources */,
+				C76240B5197F0F2D00E09FB5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76240C2197F0F2D00E09FB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76240D4197F0F2D00E09FB5 /* GreatBoxersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C76240CC197F0F2D00E09FB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C76240A4197F0F2D00E09FB5 /* GreatBoxers */;
+			targetProxy = C76240CB197F0F2D00E09FB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C76240B1197F0F2D00E09FB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C76240B2197F0F2D00E09FB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C76240BA197F0F2D00E09FB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C76240BB197F0F2D00E09FB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C76240D0197F0F2D00E09FB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C76240D1197F0F2D00E09FB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C76240D5197F0F2D00E09FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C76240D6197F0F2D00E09FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C76240D8197F0F2D00E09FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GreatBoxers/GreatBoxers-Prefix.pch";
+				INFOPLIST_FILE = "GreatBoxers/GreatBoxers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C76240D9197F0F2D00E09FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GreatBoxers/GreatBoxers-Prefix.pch";
+				INFOPLIST_FILE = "GreatBoxers/GreatBoxers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C76240DB197F0F2D00E09FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GreatBoxers.app/GreatBoxers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GreatBoxers/GreatBoxers-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GreatBoxersTests/GreatBoxersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C76240DC197F0F2D00E09FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GreatBoxers.app/GreatBoxers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GreatBoxers/GreatBoxers-Prefix.pch";
+				INFOPLIST_FILE = "GreatBoxersTests/GreatBoxersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C76240A0197F0F2D00E09FB5 /* Build configuration list for PBXProject "GreatBoxers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76240D5197F0F2D00E09FB5 /* Debug */,
+				C76240D6197F0F2D00E09FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C76240D7197F0F2D00E09FB5 /* Build configuration list for PBXNativeTarget "GreatBoxers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76240D8197F0F2D00E09FB5 /* Debug */,
+				C76240D9197F0F2D00E09FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C76240DA197F0F2D00E09FB5 /* Build configuration list for PBXNativeTarget "GreatBoxersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76240DB197F0F2D00E09FB5 /* Debug */,
+				C76240DC197F0F2D00E09FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C762409D197F0F2D00E09FB5 /* Project object */;
+}
